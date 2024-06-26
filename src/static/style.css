@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    zoom: 60%;
+
+}
+.card-img-top{
+    border-radius: 30px;
+    padding: 20px;
+}
+.card{
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 10px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: black;
+}
+
+#carouselExampleIndicators{
+    height: 500px;
+}
+.carousel-inner{
+    border-radius: 50px;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+}
+.carousel-indicators{
+    color: black;
+}
+.btn-outline-primary{
+    color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-primary{
+    border-color: #dc3545;
+    background-color: #dc3545;
+}
+.container {
+    width: 100%;
+    text-align: justify;
+}

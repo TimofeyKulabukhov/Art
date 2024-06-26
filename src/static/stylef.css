@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+img{
+    border-radius: 30px;
+    padding: 20px;
+}
+.btn-primary{
+    margin-left: 15px;
+}
