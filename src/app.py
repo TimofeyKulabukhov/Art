@@ -16,6 +16,13 @@ login_manager.login_view = 'login'
 def load_user(user_id):
     return User.query.get(int(user_id))
 
+@app.route('/')
+def index():
+    if current_user.is_authenticated:
+        return redirect(url_for('profile'))
+    else:
+        return render_template('fest.html')
+
 @app.route('/ochemto')
 def about():
     return render_template('about.html')
@@ -138,4 +145,4 @@ def logout():
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=10000)
